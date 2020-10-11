@@ -1,0 +1,6 @@
+C:\Users\Vlad\RiderProjects\Tasks\MyLogicLib\bin\Debug\MyLogicLib.dll
+C:\Users\Vlad\RiderProjects\Tasks\MyLogicLib\bin\Debug\MyLogicLib.pdb
+C:\Users\Vlad\RiderProjects\Tasks\MyLogicLib\obj\Debug\MyLogicLib.csprojAssemblyReference.cache
+C:\Users\Vlad\RiderProjects\Tasks\MyLogicLib\obj\Debug\MyLogicLib.csproj.CoreCompileInputs.cache
+C:\Users\Vlad\RiderProjects\Tasks\MyLogicLib\obj\Debug\MyLogicLib.dll
+C:\Users\Vlad\RiderProjects\Tasks\MyLogicLib\obj\Debug\MyLogicLib.pdb
