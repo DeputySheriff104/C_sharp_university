@@ -2,45 +2,41 @@
 {
     public class Athlete
     {
-        private string _lastName;
-        private int _amountOfSportEvents;
-        private int _sumOfWonPlaces;
-
         public string LastName
         {
-            get => _lastName;
-            set => _lastName = value;
+            get;
+            set;
         }
 
         public int AmountOfSportEvents
         {
-            get => _amountOfSportEvents;
-            set => _amountOfSportEvents = value;
+            get;
+            set;
         }
 
         public int SumOfWonPlaces
         {
-            get => _sumOfWonPlaces;
-            set => _sumOfWonPlaces = value;
+            get;
+            set;
         }
 
         public Athlete(string lastName, int amountOfSportEvents, int sumOfWonPlaces)
         {
-            _lastName = lastName;
-            _amountOfSportEvents = amountOfSportEvents;
-            _sumOfWonPlaces = sumOfWonPlaces;
+            LastName = lastName;
+            AmountOfSportEvents = amountOfSportEvents;
+            SumOfWonPlaces = sumOfWonPlaces;
         }
 
         public virtual double GetQuality()
         {
-            return (double)_amountOfSportEvents / _sumOfWonPlaces;
+            return (double)AmountOfSportEvents / SumOfWonPlaces;
         }
         
         public virtual string GetStringInfo()
         {
-            return "Last name - " + _lastName + "\n" +
-                   "Amount of sport events - " + _amountOfSportEvents + "\n" +
-                   "Sum of won places - " + _sumOfWonPlaces + "\n" +
+            return "Last name - " + LastName + "\n" +
+                   "Amount of sport events - " + AmountOfSportEvents + "\n" +
+                   "Sum of won places - " + SumOfWonPlaces + "\n" +
                    "Quality - " + GetQuality() + "\n";
         }
     }

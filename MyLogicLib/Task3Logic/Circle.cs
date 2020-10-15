@@ -4,34 +4,31 @@ namespace MyLogicLib.Task3Logic
 {
     public class Circle
     {
-        private Dot _center;
-        private Round _round;
-
         public Dot Center
         {
-            get => _center;
-            set => _center = value;
+            get;
+            set;
         }
 
         public Round Round
         {
-            get => _round;
-            set => _round = value;
+            get;
+            set;
         }
 
         public Circle(Dot center, Round round)
         {
-            _center = center;
-            _round = round;
+            Center = center;
+            Round = round;
         }
 
         public bool IsDotInCircle(Dot dot)
         {
             int x = dot.X;
             int y = dot.Y;
-            int x0 = _center.X;
-            int y0 = _center.Y;
-            return (Math.Pow(x - x0, 2) + Math.Pow(y - y0, 2) <= Math.Pow(_round.Radius, 2));
+            int x0 = Center.X;
+            int y0 = Center.Y;
+            return (Math.Pow(x - x0, 2) + Math.Pow(y - y0, 2) <= Math.Pow(Round.Radius, 2));
         }
     }
 }

@@ -1,0 +1,13 @@
+C:\Users\Vlad\RiderProjects\Tasks\Task7\obj\Debug\Task7.csprojAssemblyReference.cache
+C:\Users\Vlad\RiderProjects\Tasks\Task7\bin\Debug\Task7.exe.config
+C:\Users\Vlad\RiderProjects\Tasks\Task7\bin\Debug\Task7.exe
+C:\Users\Vlad\RiderProjects\Tasks\Task7\bin\Debug\Task7.pdb
+C:\Users\Vlad\RiderProjects\Tasks\Task7\obj\Debug\Task7.Properties.Resources.resources
+C:\Users\Vlad\RiderProjects\Tasks\Task7\obj\Debug\Task7.csproj.GenerateResource.cache
+C:\Users\Vlad\RiderProjects\Tasks\Task7\obj\Debug\Task7.csproj.CoreCompileInputs.cache
+C:\Users\Vlad\RiderProjects\Tasks\Task7\obj\Debug\Task7.exe
+C:\Users\Vlad\RiderProjects\Tasks\Task7\obj\Debug\Task7.pdb
+C:\Users\Vlad\RiderProjects\Tasks\Task7\bin\Debug\MyLogicLib.dll
+C:\Users\Vlad\RiderProjects\Tasks\Task7\bin\Debug\MyLogicLib.pdb
+C:\Users\Vlad\RiderProjects\Tasks\Task7\obj\Debug\Task7.Form1.resources
+C:\Users\Vlad\RiderProjects\Tasks\Task7\obj\Debug\Task7.csproj.CopyComplete

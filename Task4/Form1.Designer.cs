@@ -270,6 +270,7 @@
             this.Location = new System.Drawing.Point(15, 15);
             this.MinimumSize = new System.Drawing.Size(822, 729);
             this.Name = "Form1";
+            this.Text = "Task4";
             this.ResumeLayout(false);
             this.PerformLayout();
         }

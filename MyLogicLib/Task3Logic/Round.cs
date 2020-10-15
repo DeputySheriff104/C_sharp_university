@@ -2,17 +2,15 @@
 {
     public class Round
     {
-        private int _radius;
-
         public int Radius
         {
-            get => _radius;
-            set => _radius = value;
+            get;
+            set;
         }
 
         public Round(int radius)
         {
-            _radius = radius;
+            Radius = radius;
         }
 
     }

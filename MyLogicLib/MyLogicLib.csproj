@@ -45,6 +45,15 @@
         <Compile Include="Task3Logic\Round.cs" />
         <Compile Include="Task4Logic\Athlete.cs" />
         <Compile Include="Task4Logic\AthleteWithWinRecord.cs" />
+        <Compile Include="Task6Logic\BookCloset.cs" />
+        <Compile Include="Task6Logic\BookCloset2.cs" />
+        <Compile Include="Task6Logic\Closet.cs" />
+        <Compile Include="Task6Logic\IFurniture.cs" />
+        <Compile Include="Task7Logic\ReflectionLogic\MyReflection.cs" />
+        <Compile Include="Task7Logic\Shapes\Circle.cs" />
+        <Compile Include="Task7Logic\Shapes\IShape.cs" />
+        <Compile Include="Task7Logic\Shapes\Rectangle.cs" />
+        <Compile Include="Task7Logic\Shapes\Triangle.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

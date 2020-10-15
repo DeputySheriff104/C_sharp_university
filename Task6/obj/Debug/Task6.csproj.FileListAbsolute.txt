@@ -1,0 +1,14 @@
+C:\Users\Vlad\RiderProjects\Tasks\Task6\obj\Debug\Task6.csprojAssemblyReference.cache
+C:\Users\Vlad\RiderProjects\Tasks\Task6\bin\Debug\Task6.exe.config
+C:\Users\Vlad\RiderProjects\Tasks\Task6\bin\Debug\Task6.exe
+C:\Users\Vlad\RiderProjects\Tasks\Task6\bin\Debug\Task6.pdb
+C:\Users\Vlad\RiderProjects\Tasks\Task6\bin\Debug\MyLogicLib.dll
+C:\Users\Vlad\RiderProjects\Tasks\Task6\bin\Debug\MyLogicLib.pdb
+C:\Users\Vlad\RiderProjects\Tasks\Task6\obj\Debug\Task6.Properties.Resources.resources
+C:\Users\Vlad\RiderProjects\Tasks\Task6\obj\Debug\Task6.csproj.GenerateResource.cache
+C:\Users\Vlad\RiderProjects\Tasks\Task6\obj\Debug\Task6.csproj.CoreCompileInputs.cache
+C:\Users\Vlad\RiderProjects\Tasks\Task6\obj\Debug\Task6.csproj.CopyComplete
+C:\Users\Vlad\RiderProjects\Tasks\Task6\obj\Debug\Task6.exe
+C:\Users\Vlad\RiderProjects\Tasks\Task6\obj\Debug\Task6.pdb
+C:\Users\Vlad\RiderProjects\Tasks\Task6\obj\Debug\Task6.Form1.resources
+C:\Users\Vlad\RiderProjects\Tasks\Task6\obj\Debug\Task6.Form2.resources

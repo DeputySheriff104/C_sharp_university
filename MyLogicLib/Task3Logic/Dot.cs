@@ -2,25 +2,22 @@
 {
     public class Dot
     {
-        private int _x;
-        private int _y;
-
         public int X
         {
-            get => _x;
-            set => _x = value;
+            get;
+            set;
         }
 
         public int Y
         {
-            get => _y;
-            set => _y = value;
+            get;
+            set;
         }
 
         public Dot(int x, int y)
         {
-            _x = x;
-            _y = y;
+            X = x;
+            Y = y;
         }
     }
 }

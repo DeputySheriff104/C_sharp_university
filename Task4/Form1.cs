@@ -64,7 +64,7 @@ namespace Task4
                     }
                 }
             }
-            catch (Exception exception)
+            catch (Exception)
             {
                 // ignored
             }

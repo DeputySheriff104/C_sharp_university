@@ -57,7 +57,7 @@ namespace Task3
                     }
                 }
             }
-            catch (Exception exception)
+            catch (Exception)
             {
                 // ignored
             }

@@ -1,0 +1,9 @@
+C:\Users\Vlad\RiderProjects\Tasks\Test\bin\Debug\Test.exe
+C:\Users\Vlad\RiderProjects\Tasks\Test\bin\Debug\Test.pdb
+C:\Users\Vlad\RiderProjects\Tasks\Test\bin\Debug\MyLogicLib.dll
+C:\Users\Vlad\RiderProjects\Tasks\Test\bin\Debug\MyLogicLib.pdb
+C:\Users\Vlad\RiderProjects\Tasks\Test\obj\Debug\Test.csprojAssemblyReference.cache
+C:\Users\Vlad\RiderProjects\Tasks\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+C:\Users\Vlad\RiderProjects\Tasks\Test\obj\Debug\Test.csproj.CopyComplete
+C:\Users\Vlad\RiderProjects\Tasks\Test\obj\Debug\Test.exe
+C:\Users\Vlad\RiderProjects\Tasks\Test\obj\Debug\Test.pdb

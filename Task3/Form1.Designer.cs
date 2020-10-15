@@ -233,7 +233,7 @@
             this.Controls.Add(this.drawPanel);
             this.MinimumSize = new System.Drawing.Size(912, 520);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Task3";
             this.ResumeLayout(false);
             this.PerformLayout();
         }
