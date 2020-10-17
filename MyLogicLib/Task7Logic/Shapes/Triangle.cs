@@ -32,7 +32,7 @@ namespace MyLogicLib.Task7Logic.Shapes
 
         public double GetArea()
         {
-            double p = GetPerimeter() / 2;
+            double p = Side1 + Side2 + Side3 / 2;
             return Math.Sqrt(p * (p - Side1) * (p - Side2) * (p - Side3));
         }
 

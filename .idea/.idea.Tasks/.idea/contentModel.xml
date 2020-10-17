@@ -12,7 +12,7 @@
           <e p="AssemblyInfo.cs" t="Include" />
         </e>
         <e p="Task2Logic" t="Include">
-          <e p="Task2Logic.cs" t="Include" />
+          <e p="TextEditor.cs" t="Include" />
         </e>
         <e p="Task3Logic" t="Include">
           <e p="Circle.cs" t="Include" />

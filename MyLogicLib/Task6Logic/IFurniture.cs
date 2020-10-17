@@ -2,11 +2,7 @@
 {
     public interface IFurniture
     {
-        int OwnedAmount
-        {
-            get;
-            set;
-        }
+        int OwnedAmount { get; set; }
 
         void Buy();
 

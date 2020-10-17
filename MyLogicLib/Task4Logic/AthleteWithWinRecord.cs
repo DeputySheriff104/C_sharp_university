@@ -2,11 +2,7 @@
 {
     public class AthleteWithWinRecord : Athlete
     {
-        public bool HaveWonAtLeastOneTime
-        {
-            get;
-            set;
-        }
+        public bool HaveWonAtLeastOneTime { get; set; }
 
         public AthleteWithWinRecord(
             string lastName, int amountOfSportEvents, 
@@ -15,19 +11,22 @@
         {
             HaveWonAtLeastOneTime = haveWonAtLeastOneTime;
         }
-
-        public override double GetQuality()
+        
+        public override double CalculateQuality()
         {
             if (HaveWonAtLeastOneTime)
             {
-                return 1.5 * base.GetQuality();
+                return 1.5 * base.CalculateQuality();
             }
-            return base.GetQuality();
+            return base.CalculateQuality();
         }
 
         public override string GetStringInfo()
         {
-            return base.GetStringInfo() + 
+            return "Last name - " + LastName + "\n" +
+                   "Amount of sport events - " + AmountOfSportEvents + "\n" +
+                   "Sum of won places - " + SumOfWonPlaces + "\n" +
+                   "Quality - " + GetQuality() + "\n" +
                    "Have won at least one time - " + HaveWonAtLeastOneTime + "\n";
         }
     }

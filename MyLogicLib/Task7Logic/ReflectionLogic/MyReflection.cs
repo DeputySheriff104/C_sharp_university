@@ -51,13 +51,29 @@ namespace MyLogicLib.Task7Logic.ReflectionLogic
             }
             return methodsList.ToArray();
         }
-        
+
         public static string ConvertMethodsToString(MethodInfo[] methodArray)
         {
             string output = "";
             foreach (MethodInfo method in methodArray)
             {
                 output += " - " + method.Name + "\n";
+            }
+            return output;
+        }
+
+        public static string GetStringConstructorParams(ConstructorInfo method)
+        {
+            string output = "";
+            ParameterInfo[] methodParams = method.GetParameters();
+            for (int i = 0; i < methodParams.Length; i++)
+            {
+                output += methodParams[i].ParameterType.Name + " ";
+                output += methodParams[i].Name;
+                if (i != methodParams.Length - 1)
+                {
+                    output += ", ";
+                }
             }
             return output;
         }

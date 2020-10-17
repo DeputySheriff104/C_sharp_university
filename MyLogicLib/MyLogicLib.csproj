@@ -39,7 +39,7 @@
     </ItemGroup>
     <ItemGroup>
         <Compile Include="Properties\AssemblyInfo.cs" />
-        <Compile Include="Task2Logic\Task2Logic.cs" />
+        <Compile Include="Task2Logic\TextEditor.cs" />
         <Compile Include="Task3Logic\Circle.cs" />
         <Compile Include="Task3Logic\Dot.cs" />
         <Compile Include="Task3Logic\Round.cs" />

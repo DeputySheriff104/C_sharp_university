@@ -2,14 +2,9 @@
 {
     public class Round
     {
-        public int Radius
-        {
-            get;
-            set;
-        }
+        public int Radius { get; set; }
 
-        public Round(int radius)
-        {
+        public Round(int radius) {
             Radius = radius;
         }
 

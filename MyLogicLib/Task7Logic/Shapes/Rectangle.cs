@@ -13,9 +13,6 @@
             get;
             set;
         }
-        
-        public Rectangle()
-        {}
 
         public Rectangle(int height, int width)
         {
@@ -33,9 +30,9 @@
             return 2 * (Height + Width);
         }
         
-        public double GetSpecialForRectangle()
+        public string GetSpecialForRectangle()
         {
-            return Height + Width;
+            return "Test method working!";
         }
     }
 }

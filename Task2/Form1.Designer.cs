@@ -36,7 +36,9 @@
             this.numberFileLabel = new System.Windows.Forms.Label();
             this.richTextBoxNumbersFileInput = new System.Windows.Forms.RichTextBox();
             this.chooseNumbersFileButton = new System.Windows.Forms.Button();
-            this.runButton = new System.Windows.Forms.Button();
+            this.toRightButton = new System.Windows.Forms.Button();
+            this.toBothButton = new System.Windows.Forms.Button();
+            this.toLeftButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // chooseTextFileButton
@@ -101,15 +103,35 @@
             this.chooseNumbersFileButton.UseVisualStyleBackColor = true;
             this.chooseNumbersFileButton.Click += new System.EventHandler(this.chooseNumbersFileButton_Click);
             // 
-            // runButton
+            // toRightButton
             // 
-            this.runButton.Location = new System.Drawing.Point(695, 400);
-            this.runButton.Name = "runButton";
-            this.runButton.Size = new System.Drawing.Size(93, 38);
-            this.runButton.TabIndex = 8;
-            this.runButton.Text = "Run\r\n";
-            this.runButton.UseVisualStyleBackColor = true;
-            this.runButton.Click += new System.EventHandler(this.runButton_Click);
+            this.toRightButton.Location = new System.Drawing.Point(695, 400);
+            this.toRightButton.Name = "toRightButton";
+            this.toRightButton.Size = new System.Drawing.Size(93, 38);
+            this.toRightButton.TabIndex = 8;
+            this.toRightButton.Text = "To right";
+            this.toRightButton.UseVisualStyleBackColor = true;
+            this.toRightButton.Click += new System.EventHandler(this.toRightButton_Click);
+            // 
+            // toBothButton
+            // 
+            this.toBothButton.Location = new System.Drawing.Point(596, 400);
+            this.toBothButton.Name = "toBothButton";
+            this.toBothButton.Size = new System.Drawing.Size(93, 38);
+            this.toBothButton.TabIndex = 9;
+            this.toBothButton.Text = "To both";
+            this.toBothButton.UseVisualStyleBackColor = true;
+            this.toBothButton.Click += new System.EventHandler(this.toBothButton_Click);
+            // 
+            // toLeftButton
+            // 
+            this.toLeftButton.Location = new System.Drawing.Point(497, 400);
+            this.toLeftButton.Name = "toLeftButton";
+            this.toLeftButton.Size = new System.Drawing.Size(93, 38);
+            this.toLeftButton.TabIndex = 10;
+            this.toLeftButton.Text = "To left";
+            this.toLeftButton.UseVisualStyleBackColor = true;
+            this.toLeftButton.Click += new System.EventHandler(this.toLeftButton_Click);
             // 
             // Form1
             // 
@@ -117,7 +139,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.runButton);
+            this.Controls.Add(this.toLeftButton);
+            this.Controls.Add(this.toBothButton);
+            this.Controls.Add(this.toRightButton);
             this.Controls.Add(this.chooseNumbersFileButton);
             this.Controls.Add(this.richTextBoxNumbersFileInput);
             this.Controls.Add(this.numberFileLabel);
@@ -131,7 +155,9 @@
             this.ResumeLayout(false);
         }
 
-        private System.Windows.Forms.Button runButton;
+        private System.Windows.Forms.Button toBothButton;
+        private System.Windows.Forms.Button toLeftButton;
+        private System.Windows.Forms.Button toRightButton;
 
         private System.Windows.Forms.Button chooseNumbersFileButton;
         private System.Windows.Forms.Button chooseTextFileButton;

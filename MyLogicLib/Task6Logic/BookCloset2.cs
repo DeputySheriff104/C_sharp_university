@@ -4,17 +4,9 @@ namespace MyLogicLib.Task6Logic
 {
     public class BookCloset2 : Closet
     {
-        public int AmountOfBooks
-        {
-            get;
-            set;
-        }
+        public int AmountOfBooks { get; set; }
 
-        public int MaxAmountOfBooks
-        {
-            get; 
-            set;
-        }
+        public int MaxAmountOfBooks { get; set; }
 
         public BookCloset2(int ownedAmount, double volume, int shelvesAmount, int amountOfBooks, int maxAmountOfBooks)
         {

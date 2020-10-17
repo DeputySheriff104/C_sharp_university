@@ -14,13 +14,17 @@ namespace Test
             Type[] typeArray = GetImplementedTypesFromTypeArray(GetTypesInNamespace(
                 Assembly.LoadFrom("MyLogicLib.dll"), "MyLogicLib.Task7Logic.Shapes"));
 
-            Console.WriteLine(ConvertTypeArrayWithMethodsToString(typeArray));
+
+            ParameterInfo[] parameters = typeArray[1].GetConstructors()[0].GetParameters();
+            
+            Console.WriteLine(parameters.Length);
+            //Console.WriteLine(typeArray[1].GetMethod("GetArea")?.GetParameters()[0].Name);
+            /*Console.WriteLine(ConvertTypeArrayWithMethodsToString(typeArray));
             
             Console.WriteLine(RunMethod(
-                typeArray[1], "GetArea", new object[]{5, 2}, null));
-            
+                typeArray[1], "GetArea", new object[]{5, 2}, null));*/
+
         }
-        
         public static Type[] GetTypesInNamespace(Assembly assembly, string nameSpace)
         {
             return
@@ -65,13 +69,24 @@ namespace Test
             }
             return methodsList.ToArray();
         }
-
+        
         public static string ConvertMethodsToString(MethodInfo[] methodArray)
         {
             string output = "";
             foreach (MethodInfo method in methodArray)
             {
                 output += " - " + method.Name + "\n";
+            }
+            return output;
+        }
+
+        public static string GetStringMethodParams(MethodInfo method)
+        {
+            string output = "";
+            foreach(ParameterInfo methParam in method.GetParameters())
+            {
+                output += methParam.ParameterType.Name;
+                output += methParam.Name;
             }
             return output;
         }

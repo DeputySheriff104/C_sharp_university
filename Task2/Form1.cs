@@ -63,9 +63,26 @@ namespace Task2
             }
         }
 
-        private void runButton_Click(object sender, EventArgs e)
+        private void toLeftButton_Click(object sender, EventArgs e)
         {
-            richTextBoxOutput.Text = string.Join("\n", Task2Logic.GetNewTextFile(FileNumbers, FileText));
+            richTextBoxOutput.Text = string.Join(
+                "\n", 
+                new TextEditor(FileNumbers, FileText).GetNewTextFile(true, false));
+        }
+
+        private void toBothButton_Click(object sender, EventArgs e)
+        {
+            richTextBoxOutput.Text = string.Join(
+                "\n", 
+                new TextEditor(FileNumbers, FileText).GetNewTextFile(true, true));
+        }
+
+        private void toRightButton_Click(object sender, EventArgs e)
+        {
+            
+            richTextBoxOutput.Text = string.Join(
+                "\n", 
+                new TextEditor(FileNumbers, FileText).GetNewTextFile(false, true));
         }
     }
 }

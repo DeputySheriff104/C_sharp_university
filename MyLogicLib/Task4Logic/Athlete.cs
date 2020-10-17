@@ -2,23 +2,11 @@
 {
     public class Athlete
     {
-        public string LastName
-        {
-            get;
-            set;
-        }
+        public string LastName { get; set; }
 
-        public int AmountOfSportEvents
-        {
-            get;
-            set;
-        }
+        public int AmountOfSportEvents { get; set; }
 
-        public int SumOfWonPlaces
-        {
-            get;
-            set;
-        }
+        public int SumOfWonPlaces { get; set; }
 
         public Athlete(string lastName, int amountOfSportEvents, int sumOfWonPlaces)
         {
@@ -27,7 +15,12 @@
             SumOfWonPlaces = sumOfWonPlaces;
         }
 
-        public virtual double GetQuality()
+        public double GetQuality()
+        {
+            return CalculateQuality();
+        }
+        
+        public virtual double CalculateQuality()
         {
             return (double)AmountOfSportEvents / SumOfWonPlaces;
         }

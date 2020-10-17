@@ -4,20 +4,11 @@ namespace MyLogicLib.Task3Logic
 {
     public class Circle
     {
-        public Dot Center
-        {
-            get;
-            set;
-        }
+        public Dot Center { get; set; }
 
-        public Round Round
-        {
-            get;
-            set;
-        }
+        public Round Round { get; set; }
 
-        public Circle(Dot center, Round round)
-        {
+        public Circle(Dot center, Round round) {
             Center = center;
             Round = round;
         }
