@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using MyLogicLib.Task7Logic.ReflectionLogic;
-using MyLogicLib.Task7Logic.Shapes;
 
 namespace Test
 {

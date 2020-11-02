@@ -14,23 +14,11 @@ namespace Task2
 {
     public partial class Form1 : Form
     {
-        private string Name
-        {
-            get;
-            set;
-        }
+        private string Name { get; set; }
 
-        private string[] FileText
-        {
-            get;
-            set;
-        }
+        private string[] FileText { get; set; }
 
-        private string[] FileNumbers
-        {
-            get;
-            set;
-        }
+        private string[] FileNumbers { get; set; }
 
         public Form1()
         {

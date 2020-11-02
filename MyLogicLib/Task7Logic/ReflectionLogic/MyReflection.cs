@@ -7,7 +7,7 @@ namespace MyLogicLib.Task7Logic.ReflectionLogic
 {
     public class MyReflection
     {
-        public static Type[] GetTypesInNamespace(Assembly assembly, string nameSpace)
+        public Type[] GetTypesInNamespace(Assembly assembly, string nameSpace)
         {
             return
                 assembly.GetTypes()
@@ -15,19 +15,19 @@ namespace MyLogicLib.Task7Logic.ReflectionLogic
                     .ToArray();
         }
 
-        public static Type[] GetImplementedTypesFromTypeArray(Type[] typeArray)
+        public Type[] GetImplementedTypesFromTypeArray(Type[] typeArray, string parent)
         {
-            return typeArray.Where(type => type.GetInterface("IShape") != null).ToArray();
+            return typeArray.Where(type => type.GetInterface(parent) != null).ToArray();
         }
 
-        public static object RunMethod(
+        public object RunMethod(
             Type type, string methodName, object[] constructorParams, object[] methodParams)
         {
             return type.GetMethod(methodName)?
                 .Invoke(Activator.CreateInstance(type, constructorParams), methodParams);
         }
 
-        public static string ConvertTypeArrayWithMethodsToString(Type[] typeArray)
+        public string ConvertTypeArrayWithMethodsToString(Type[] typeArray)
         {
             string output = "";
             foreach (Type type in typeArray)
@@ -41,18 +41,18 @@ namespace MyLogicLib.Task7Logic.ReflectionLogic
             return output;
         }
 
-        public static MethodInfo[] GetMethodsOfType(Type type)
+        public MethodInfo[] GetMethodsOfType(Type type)
         {
             List<MethodInfo> methodsList = new List<MethodInfo>();
             foreach (var method in type.GetMethods()
-                .Where((mi)=> mi.DeclaringType != typeof(object)))
+                .Where((mi)=> mi.DeclaringType != typeof(object) && !mi.IsSpecialName))
             {
                 methodsList.Add(method);
             }
             return methodsList.ToArray();
         }
 
-        public static string ConvertMethodsToString(MethodInfo[] methodArray)
+        public string ConvertMethodsToString(MethodInfo[] methodArray)
         {
             string output = "";
             foreach (MethodInfo method in methodArray)
@@ -62,7 +62,7 @@ namespace MyLogicLib.Task7Logic.ReflectionLogic
             return output;
         }
 
-        public static string GetStringConstructorParams(ConstructorInfo method)
+        public string GetStringConstructorParams(ConstructorInfo method)
         {
             string output = "";
             ParameterInfo[] methodParams = method.GetParameters();

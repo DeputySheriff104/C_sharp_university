@@ -30,14 +30,15 @@
           <e p="IFurniture.cs" t="Include" />
         </e>
         <e p="Task7Logic" t="Include">
+          <e p="Closets" t="Include">
+            <e p="BookCloset.cs" t="Include" />
+            <e p="Closet.cs" t="Include" />
+            <e p="DishCloset.cs" t="Include" />
+            <e p="IFurniture.cs" t="Include" />
+            <e p="ShoeCloset.cs" t="Include" />
+          </e>
           <e p="ReflectionLogic" t="Include">
             <e p="MyReflection.cs" t="Include" />
-          </e>
-          <e p="Shapes" t="Include">
-            <e p="Circle.cs" t="Include" />
-            <e p="IShape.cs" t="Include" />
-            <e p="Rectangle.cs" t="Include" />
-            <e p="Triangle.cs" t="Include" />
           </e>
         </e>
       </e>

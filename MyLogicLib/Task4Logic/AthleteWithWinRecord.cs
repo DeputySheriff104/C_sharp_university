@@ -11,8 +11,8 @@
         {
             HaveWonAtLeastOneTime = haveWonAtLeastOneTime;
         }
-        
-        public override double CalculateQuality()
+
+        protected override double CalculateQuality()
         {
             if (HaveWonAtLeastOneTime)
             {
@@ -23,11 +23,8 @@
 
         public override string GetStringInfo()
         {
-            return "Last name - " + LastName + "\n" +
-                   "Amount of sport events - " + AmountOfSportEvents + "\n" +
-                   "Sum of won places - " + SumOfWonPlaces + "\n" +
-                   "Quality - " + GetQuality() + "\n" +
-                   "Have won at least one time - " + HaveWonAtLeastOneTime + "\n";
+            return base.GetStringInfo() +
+                   "Have won at least one time - " + HaveWonAtLeastOneTime + "\n" + GetQuality();
         }
     }
 }

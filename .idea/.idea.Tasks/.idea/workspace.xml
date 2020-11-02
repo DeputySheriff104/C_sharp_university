@@ -34,30 +34,28 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62a06e11-9636-4d34-b7fb-c396888d87a7" name="Default Changelist" comment="6 task added.&#10;7 task added (not ready).">
+    <list default="true" id="62a06e11-9636-4d34-b7fb-c396888d87a7" name="Default Changelist" comment="2 task fix.">
+      <change afterPath="$PROJECT_DIR$/MyLogicLib/Task7Logic/Closets/BookCloset.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyLogicLib/Task7Logic/Closets/Closet.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyLogicLib/Task7Logic/Closets/DishCloset.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyLogicLib/Task7Logic/Closets/IFurniture.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyLogicLib/Task7Logic/Closets/ShoeCloset.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Tasks/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tasks/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Tasks/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tasks/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyLogicLib/MyLogicLib.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MyLogicLib/MyLogicLib.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyLogicLib/Task2Logic/Task2Logic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyLogicLib/Task2Logic/TextEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyLogicLib/Task3Logic/Circle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyLogicLib/Task3Logic/Circle.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyLogicLib/Task3Logic/Dot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyLogicLib/Task3Logic/Dot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyLogicLib/Task3Logic/Round.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyLogicLib/Task3Logic/Round.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyLogicLib/Task4Logic/Athlete.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyLogicLib/Task4Logic/Athlete.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyLogicLib/Task4Logic/AthleteWithWinRecord.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyLogicLib/Task4Logic/AthleteWithWinRecord.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyLogicLib/Task6Logic/BookCloset.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyLogicLib/Task6Logic/BookCloset.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyLogicLib/Task6Logic/BookCloset2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyLogicLib/Task6Logic/BookCloset2.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyLogicLib/Task6Logic/Closet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyLogicLib/Task6Logic/Closet.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyLogicLib/Task6Logic/IFurniture.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyLogicLib/Task6Logic/IFurniture.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyLogicLib/Task7Logic/ReflectionLogic/MyReflection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyLogicLib/Task7Logic/ReflectionLogic/MyReflection.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyLogicLib/Task7Logic/Shapes/Rectangle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyLogicLib/Task7Logic/Shapes/Rectangle.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyLogicLib/Task7Logic/Shapes/Triangle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyLogicLib/Task7Logic/Shapes/Triangle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyLogicLib/Task7Logic/Shapes/Circle.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyLogicLib/Task7Logic/Shapes/IShape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyLogicLib/Task7Logic/Shapes/Rectangle.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyLogicLib/Task7Logic/Shapes/Triangle.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/MyLogicLib/bin/Debug/MyLogicLib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyLogicLib/bin/Debug/MyLogicLib.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyLogicLib/bin/Debug/MyLogicLib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MyLogicLib/bin/Debug/MyLogicLib.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyLogicLib/obj/Debug/MyLogicLib.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyLogicLib/obj/Debug/MyLogicLib.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyLogicLib/obj/Debug/MyLogicLib.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyLogicLib/obj/Debug/MyLogicLib.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyLogicLib/obj/Debug/MyLogicLib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyLogicLib/obj/Debug/MyLogicLib.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyLogicLib/obj/Debug/MyLogicLib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MyLogicLib/obj/Debug/MyLogicLib.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task2/Form1.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task2/Form1.Designer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task2/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task2/Form1.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task2/bin/Debug/MyLogicLib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Task2/bin/Debug/MyLogicLib.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task2/bin/Debug/MyLogicLib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Task2/bin/Debug/MyLogicLib.pdb" afterDir="false" />
@@ -66,15 +64,6 @@
       <change beforePath="$PROJECT_DIR$/Task2/obj/Debug/Task2.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Task2/obj/Debug/Task2.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task2/obj/Debug/Task2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Task2/obj/Debug/Task2.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task2/obj/Debug/Task2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Task2/obj/Debug/Task2.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task3/bin/Debug/MyLogicLib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Task3/bin/Debug/MyLogicLib.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task3/bin/Debug/MyLogicLib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Task3/bin/Debug/MyLogicLib.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task3/obj/Debug/Task3.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Task3/obj/Debug/Task3.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/bin/Debug/MyLogicLib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/bin/Debug/MyLogicLib.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/bin/Debug/MyLogicLib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/bin/Debug/MyLogicLib.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/obj/Debug/Task4.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/obj/Debug/Task4.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task6/bin/Debug/MyLogicLib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Task6/bin/Debug/MyLogicLib.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task6/bin/Debug/MyLogicLib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Task6/bin/Debug/MyLogicLib.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task6/obj/Debug/Task6.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Task6/obj/Debug/Task6.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task7/Form1.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task7/Form1.Designer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task7/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task7/Form1.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task7/bin/Debug/MyLogicLib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Task7/bin/Debug/MyLogicLib.dll" afterDir="false" />
@@ -85,13 +74,6 @@
       <change beforePath="$PROJECT_DIR$/Task7/obj/Debug/Task7.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Task7/obj/Debug/Task7.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task7/obj/Debug/Task7.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Task7/obj/Debug/Task7.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/bin/Debug/MyLogicLib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Test/bin/Debug/MyLogicLib.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/bin/Debug/MyLogicLib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Test/bin/Debug/MyLogicLib.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/bin/Debug/Test.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Test/bin/Debug/Test.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/bin/Debug/Test.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Test/bin/Debug/Test.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/obj/Debug/Test.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Test/obj/Debug/Test.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/obj/Debug/Test.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Test/obj/Debug/Test.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/obj/Debug/Test.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Test/obj/Debug/Test.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,26 +84,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/MyLogicLib/Task7Logic/Closets/BookCloset.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Task1/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/50FE65A4-93A0-4952-84F1-E3562EFBE38D/aa/d7304b0e/Activator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyLogicLib/Task7Logic/Closets/DishCloset.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Tasks/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyLogicLib/Task7Logic/Closets/IFurniture.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyLogicLib/Task7Logic/Closets/Closet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3E4100C5-0380-40BA-A2BA-66BB8A76E424/85/1ed2e257/Control.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/WindowsFormsApp1/Form1.Designer.cs" />
-        <option value="$PROJECT_DIR$/MyLogicLib/Class1.cs" />
-        <option value="$PROJECT_DIR$/MyLogicLib/Task2Logic.cs" />
-        <option value="$PROJECT_DIR$/MyLogicLib/Task2Logic/Task2Logic.cs" />
-        <option value="$PROJECT_DIR$/MyLogicLib/Task3Logic/Point.cs" />
-        <option value="$PROJECT_DIR$/Task3/Form1.Designer.cs" />
-        <option value="$PROJECT_DIR$/MyLogicLib/Task4Logic/WinnerAthlete.cs" />
-        <option value="$PROJECT_DIR$/Task4/Form1.Designer.cs" />
-        <option value="$PROJECT_DIR$/Task5/Form1.cs" />
-        <option value="$PROJECT_DIR$/MyLogicLib/Task6Logic/Wardrobe.cs" />
-        <option value="$PROJECT_DIR$/MyLogicLib/Task6Logic/Bookcase.cs" />
-        <option value="$PROJECT_DIR$/MyLogicLib/Task6Logic/Box.cs" />
         <option value="$PROJECT_DIR$/MyLogicLib/Task6Logic/Furniture.cs" />
         <option value="$PROJECT_DIR$/Task6/Form1.Designer.cs" />
         <option value="$PROJECT_DIR$/Task6/Program.cs" />
@@ -143,24 +117,36 @@
         <option value="$PROJECT_DIR$/MyLogicLib/Task7Logic/Shapes/IShape.cs" />
         <option value="$PROJECT_DIR$/MyLogicLib/Task7Logic/ReflectionLogic/Reflection.cs" />
         <option value="$PROJECT_DIR$/MyLogicLib/Task7Logic/Test.cs" />
-        <option value="$PROJECT_DIR$/Test/Program.cs" />
         <option value="$PROJECT_DIR$/MyLogicLib/Task7Logic/Shapes/Triangle.cs" />
         <option value="$PROJECT_DIR$/MyLogicLib/Task7Logic/Shapes/Rectangle.cs" />
-        <option value="$PROJECT_DIR$/Task7/Form1.cs" />
-        <option value="$PROJECT_DIR$/MyLogicLib/Task7Logic/ReflectionLogic/MyReflection.cs" />
         <option value="$PROJECT_DIR$/Task7/Form1.Designer.cs" />
         <option value="$PROJECT_DIR$/Task2/Form1.Designer.cs" />
-        <option value="$PROJECT_DIR$/Task2/Form1.cs" />
         <option value="$PROJECT_DIR$/MyLogicLib/Task2Logic/TextEditor.cs" />
         <option value="$PROJECT_DIR$/MyLogicLib/Task3Logic/Dot.cs" />
         <option value="$PROJECT_DIR$/MyLogicLib/Task3Logic/Circle.cs" />
         <option value="$PROJECT_DIR$/MyLogicLib/Task3Logic/Round.cs" />
-        <option value="$PROJECT_DIR$/MyLogicLib/Task4Logic/Athlete.cs" />
         <option value="$PROJECT_DIR$/MyLogicLib/Task4Logic/AthleteWithWinRecord.cs" />
+        <option value="$PROJECT_DIR$/MyLogicLib/Task4Logic/Athlete.cs" />
+        <option value="$PROJECT_DIR$/Task2/Form1.cs" />
+        <option value="$PROJECT_DIR$/MyLogicLib/Task7Logic/Athletes/AthleteWithWinRecord.cs" />
+        <option value="$PROJECT_DIR$/MyLogicLib/Task7Logic/Athletes/Athlete.cs" />
         <option value="$PROJECT_DIR$/MyLogicLib/Task6Logic/BookCloset.cs" />
         <option value="$PROJECT_DIR$/MyLogicLib/Task6Logic/BookCloset2.cs" />
         <option value="$PROJECT_DIR$/MyLogicLib/Task6Logic/Closet.cs" />
         <option value="$PROJECT_DIR$/MyLogicLib/Task6Logic/IFurniture.cs" />
+        <option value="$PROJECT_DIR$/MyLogicLib/Task7Logic/Furniture/IFurniture.cs" />
+        <option value="$PROJECT_DIR$/MyLogicLib/Task7Logic/Furniture/Closet.cs" />
+        <option value="$PROJECT_DIR$/MyLogicLib/Task7Logic/Furniture/BookCloset2.cs" />
+        <option value="$PROJECT_DIR$/MyLogicLib/Task7Logic/Furniture/BookCloset.cs" />
+        <option value="$PROJECT_DIR$/Test/Program.cs" />
+        <option value="$PROJECT_DIR$/MyLogicLib/Task7Logic/Furniture/DishesCloset.cs" />
+        <option value="$PROJECT_DIR$/MyLogicLib/Task7Logic/Closets/BookCloset.cs" />
+        <option value="$PROJECT_DIR$/MyLogicLib/Task7Logic/Closets/Closet.cs" />
+        <option value="$PROJECT_DIR$/MyLogicLib/Task7Logic/Closets/IFurniture.cs" />
+        <option value="$PROJECT_DIR$/MyLogicLib/Task7Logic/Closets/DishesCloset.cs" />
+        <option value="$PROJECT_DIR$/MyLogicLib/Task7Logic/Closets/ShoesCloset.cs" />
+        <option value="$PROJECT_DIR$/MyLogicLib/Task7Logic/ReflectionLogic/MyReflection.cs" />
+        <option value="$PROJECT_DIR$/Task7/Form1.cs" />
       </list>
     </option>
   </component>
@@ -181,7 +167,7 @@
     <property name="settings.editor.selected.configurable" value="SolutionBuilderGeneralOptionsPageId" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Project.Task2">
+  <component name="RunManager" selected=".NET Project.Task7">
     <configuration name="Task1" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="$PROJECT_DIR$/Task1/bin/Debug/netcoreapp3.1/Task1.dll" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -346,7 +332,12 @@
       <workItem from="1602762840181" duration="24290000" />
       <workItem from="1602836849718" duration="7360000" />
       <workItem from="1602846628876" duration="9044000" />
-      <workItem from="1602924747971" duration="1312000" />
+      <workItem from="1602924747971" duration="2108000" />
+      <workItem from="1602926886090" duration="649000" />
+      <workItem from="1603047529672" duration="634000" />
+      <workItem from="1603052266695" duration="1271000" />
+      <workItem from="1603090192203" duration="1070000" />
+      <workItem from="1604303191807" duration="6407000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit.">
       <created>1602432826315</created>
@@ -362,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602797949101</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2 task fix.">
+      <created>1602926138346</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602926138346</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -387,29 +385,34 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Init commit." />
     <MESSAGE value="6 task added.&#10;7 task added (not ready)." />
-    <option name="LAST_COMMIT_MESSAGE" value="6 task added.&#10;7 task added (not ready)." />
+    <MESSAGE value="7 task almost ready (need to change base form 3 task to 6 task + add some more library and package search).&#10;4 task fix.&#10;2 task fix." />
+    <option name="LAST_COMMIT_MESSAGE" value="7 task almost ready (need to change base form 3 task to 6 task + add some more library and package search).&#10;4 task fix.&#10;2 task fix." />
   </component>
   <component name="WindowStateProjectService">
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602772401873">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1602772401873" />
-    <state width="1237" height="2" key="GridCell.Tab.0.bottom" timestamp="1602925742352">
+    <state x="342" y="241" key="Git.Rebase.Log.Action.NewCommitMessage.Dialog" timestamp="1602926309734">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1602925742352" />
-    <state width="1237" height="2" key="GridCell.Tab.0.center" timestamp="1602925742352">
+    <state x="342" y="241" key="Git.Rebase.Log.Action.NewCommitMessage.Dialog/0.0.1280.680@0.0.1280.680" timestamp="1602926309734" />
+    <state width="1237" height="127" key="GridCell.Tab.0.bottom" timestamp="1604310864016">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1602925742352" />
-    <state width="1237" height="2" key="GridCell.Tab.0.left" timestamp="1602925742352">
+    <state width="1237" height="127" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1604310864016" />
+    <state width="1237" height="127" key="GridCell.Tab.0.center" timestamp="1604310864016">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1602925742352" />
-    <state width="1237" height="2" key="GridCell.Tab.0.right" timestamp="1602925742352">
+    <state width="1237" height="127" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1604310864016" />
+    <state width="1237" height="127" key="GridCell.Tab.0.left" timestamp="1604310864016">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1602925742352" />
+    <state width="1237" height="127" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1604310864016" />
+    <state width="1237" height="127" key="GridCell.Tab.0.right" timestamp="1604310864016">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="127" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1604310864016" />
     <state width="1237" height="29" key="GridCell.Tab.1.bottom" timestamp="1602846604673">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -490,14 +493,14 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="271" y="0" key="ToolboxManager/0.0.1280.680@0.0.1280.680" timestamp="1602329311871" />
-    <state x="93" y="93" width="1095" height="495" key="VCS.FileHistoryDialog" timestamp="1602859163996">
+    <state x="93" y="93" width="1095" height="495" key="VCS.FileHistoryDialog" timestamp="1604310557595">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="93" y="93" width="1095" height="495" key="VCS.FileHistoryDialog/0.0.1280.680@0.0.1280.680" timestamp="1602859163996" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1602797963220">
+    <state x="93" y="93" width="1095" height="495" key="VCS.FileHistoryDialog/0.0.1280.680@0.0.1280.680" timestamp="1604310557595" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1602926932140">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1602797963220" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1602926932140" />
     <state x="113" y="106" width="1095" height="495" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1602763839247">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

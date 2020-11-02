@@ -15,12 +15,12 @@
             SumOfWonPlaces = sumOfWonPlaces;
         }
 
-        public double GetQuality()
+        protected double GetQuality()
         {
             return CalculateQuality();
         }
-        
-        public virtual double CalculateQuality()
+
+        protected virtual double CalculateQuality()
         {
             return (double)AmountOfSportEvents / SumOfWonPlaces;
         }

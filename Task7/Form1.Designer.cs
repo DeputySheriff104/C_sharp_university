@@ -84,13 +84,13 @@
             // 
             this.richTextBox1.Location = new System.Drawing.Point(115, 302);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(378, 93);
+            this.richTextBox1.Size = new System.Drawing.Size(378, 183);
             this.richTextBox1.TabIndex = 4;
             this.richTextBox1.Text = "";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(466, 183);
+            this.textBox1.Location = new System.Drawing.Point(466, 198);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(168, 26);
             this.textBox1.TabIndex = 5;
@@ -109,7 +109,7 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (204)));
             this.label2.Location = new System.Drawing.Point(466, 150);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(328, 30);
+            this.label2.Size = new System.Drawing.Size(452, 45);
             this.label2.TabIndex = 7;
             // 
             // label3
@@ -153,7 +153,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(930, 497);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);

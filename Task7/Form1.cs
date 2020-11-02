@@ -14,50 +14,71 @@ namespace Task7
 {
     public partial class Form1 : Form
     {
+        private MyReflection MyReflection { get; set; }
         public Form1()
         {
+            MyReflection = new MyReflection();
             InitializeComponent();
                 MyReflection.GetImplementedTypesFromTypeArray(
                     MyReflection.GetTypesInNamespace(
-                        Assembly.LoadFrom("MyLogicLib.dll"), "MyLogicLib.Task7Logic.Shapes"));
+                        Assembly.LoadFrom("MyLogicLib.dll"), "MyLogicLib.Task7Logic.Closets"), "IFurniture");
                 classComboBox.DisplayMember = "Name";
                 methodComboBox.DisplayMember = "Name";
                 libraryComboBox.Items.Add("MyLogicLib.dll");
         }
-        
-        void classComboBox_DropDownClosed(object sender, EventArgs e) {
-            if (classComboBox.SelectedItem != null)
+
+        private void libraryComboBox_DropDownClosed(object sender, EventArgs e) {
+            try {
+                if (libraryComboBox.SelectedItem != null)
+                {
+                    BeginInvoke(new Action(() => { classComboBox.Select(0, 0); }));
+                    string lib = (string) libraryComboBox.SelectedItem;
+                    classComboBox.DataSource = MyReflection.GetImplementedTypesFromTypeArray(
+                        MyReflection.GetTypesInNamespace(
+                            Assembly.LoadFrom(lib), lib.Substring(
+                                0, lib.Length - 3) + "Task7Logic.Closets"), "IFurniture");
+                    classComboBox.SelectedItem = null;
+                }
+            }
+            catch (Exception)
             {
-                BeginInvoke(new Action(() => { classComboBox.Select(0, 0); }));
-                methodComboBox.DataSource = MyReflection.GetMethodsOfType((Type) classComboBox.SelectedItem);
-                methodComboBox.SelectedItem = null;
-                label2.Text = "";
+                // ignore
             }
         }
-        
-        void methodComboBox_DropDownClosed(object sender, EventArgs e)
+
+        private void classComboBox_DropDownClosed(object sender, EventArgs e) {
+            try {
+                if (classComboBox.SelectedItem != null)
+                {
+                    BeginInvoke(new Action(() => { classComboBox.Select(0, 0); }));
+                    methodComboBox.DataSource = MyReflection.GetMethodsOfType((Type) classComboBox.SelectedItem);
+                    methodComboBox.SelectedItem = null;
+                    label2.Text = "";
+                }
+            }
+            catch (Exception)
+            {
+                // ignore
+            }
+            
+        }
+
+        private void methodComboBox_DropDownClosed(object sender, EventArgs e)
         {
-            if (methodComboBox.SelectedItem != null)
+            try {
+                if (methodComboBox.SelectedItem != null)
+                {
+                    Type type = (Type) classComboBox.SelectedItem;
+                    label2.Text = MyReflection.GetStringConstructorParams(
+                        type.GetConstructors()[0]);
+                }
+            }
+            catch (Exception)
             {
-                Type type = (Type) classComboBox.SelectedItem;
-                label2.Text = MyReflection.GetStringConstructorParams(
-                    type.GetConstructors()[0]);
+                // ignore
             }
         }
-        
-        void libraryComboBox_DropDownClosed(object sender, EventArgs e) {
-            if (libraryComboBox.SelectedItem != null)
-            {
-                BeginInvoke(new Action(() => { classComboBox.Select(0, 0); }));
-                string lib = (string) libraryComboBox.SelectedItem;
-                classComboBox.DataSource = MyReflection.GetImplementedTypesFromTypeArray(
-                    MyReflection.GetTypesInNamespace(
-                        Assembly.LoadFrom(lib), lib.Substring(
-                            0, lib.Length - 3) + "Task7Logic.Shapes"));
-                classComboBox.SelectedItem = null;
-            }
-        }
-        
+
         private void runMethodButton_Click(object sender, EventArgs e)
         {
             try
