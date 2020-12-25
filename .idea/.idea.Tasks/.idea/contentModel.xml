@@ -41,6 +41,18 @@
             <e p="MyReflection.cs" t="Include" />
           </e>
         </e>
+        <e p="Task8Logic" t="Include">
+          <e p="Athlete.cs" t="Include" />
+          <e p="AthleteState.cs" t="Include" />
+          <e p="Competition.cs" t="Include" />
+          <e p="IMedic.cs" t="Include" />
+          <e p="MasterMedic.cs" t="Include" />
+          <e p="StudentMedic.cs" t="Include" />
+          <e p="Track.cs" t="Include" />
+          <e p="Utils" t="Include">
+            <e p="CustomRandom.cs" t="Include" />
+          </e>
+        </e>
       </e>
       <e p="packages" t="ExcludeRecursive" />
       <e p="Task1" t="IncludeRecursive">
@@ -142,6 +154,22 @@
           <e p="Settings.settings" t="Include" />
         </e>
         <e p="Task7.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="Task8" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Form1.cs" t="Include" />
+        <e p="Form1.Designer.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="Resources.Designer.cs" t="Include" />
+          <e p="Resources.resx" t="Include" />
+          <e p="Settings.Designer.cs" t="Include" />
+          <e p="Settings.settings" t="Include" />
+        </e>
+        <e p="Task8.csproj" t="IncludeRecursive" />
       </e>
       <e p="Tasks.sln" t="IncludeFlat" />
       <e p="Test" t="IncludeRecursive">

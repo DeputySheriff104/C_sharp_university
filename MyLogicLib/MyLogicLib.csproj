@@ -11,6 +11,7 @@
         <AssemblyName>MyLogicLib</AssemblyName>
         <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
+        <LangVersion>8</LangVersion>
     </PropertyGroup>
     <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
         <PlatformTarget>x64</PlatformTarget>
@@ -55,6 +56,14 @@
         <Compile Include="Task7Logic\Closets\IFurniture.cs" />
         <Compile Include="Task7Logic\Closets\ShoeCloset.cs" />
         <Compile Include="Task7Logic\ReflectionLogic\MyReflection.cs" />
+        <Compile Include="Task8Logic\Athlete.cs" />
+        <Compile Include="Task8Logic\AthleteState.cs" />
+        <Compile Include="Task8Logic\Competition.cs" />
+        <Compile Include="Task8Logic\StudentMedic.cs" />
+        <Compile Include="Task8Logic\Track.cs" />
+        <Compile Include="Task8Logic\MasterMedic.cs" />
+        <Compile Include="Task8Logic\IMedic.cs" />
+        <Compile Include="Task8Logic\Utils\CustomRandom.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

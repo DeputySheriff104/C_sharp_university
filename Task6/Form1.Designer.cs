@@ -224,6 +224,7 @@
             this.Controls.Add(this.volumeLabel);
             this.Controls.Add(this.ownedAmountLabel);
             this.Controls.Add(this.outputRichTextBox);
+            this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form1";
             this.Text = "Task6.1";

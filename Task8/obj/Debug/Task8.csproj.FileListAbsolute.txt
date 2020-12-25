@@ -1,0 +1,12 @@
+C:\Users\Vlad\RiderProjects\Tasks\Task8\obj\Debug\Task8.csprojAssemblyReference.cache
+C:\Users\Vlad\RiderProjects\Tasks\Task8\bin\Debug\Task8.exe.config
+C:\Users\Vlad\RiderProjects\Tasks\Task8\bin\Debug\Task8.exe
+C:\Users\Vlad\RiderProjects\Tasks\Task8\bin\Debug\Task8.pdb
+C:\Users\Vlad\RiderProjects\Tasks\Task8\obj\Debug\Task8.Properties.Resources.resources
+C:\Users\Vlad\RiderProjects\Tasks\Task8\obj\Debug\Task8.csproj.GenerateResource.cache
+C:\Users\Vlad\RiderProjects\Tasks\Task8\obj\Debug\Task8.csproj.CoreCompileInputs.cache
+C:\Users\Vlad\RiderProjects\Tasks\Task8\obj\Debug\Task8.exe
+C:\Users\Vlad\RiderProjects\Tasks\Task8\obj\Debug\Task8.pdb
+C:\Users\Vlad\RiderProjects\Tasks\Task8\bin\Debug\MyLogicLib.dll
+C:\Users\Vlad\RiderProjects\Tasks\Task8\bin\Debug\MyLogicLib.pdb
+C:\Users\Vlad\RiderProjects\Tasks\Task8\obj\Debug\Task8.csproj.CopyComplete

@@ -11,6 +11,7 @@
     <projectFile>Task6/Task6.csproj</projectFile>
     <projectFile>Task7/Task7.csproj</projectFile>
     <projectFile>Test/Test.csproj</projectFile>
+    <projectFile>Task8/Task8.csproj</projectFile>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
@@ -34,46 +35,69 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62a06e11-9636-4d34-b7fb-c396888d87a7" name="Default Changelist" comment="2 task fix.">
-      <change afterPath="$PROJECT_DIR$/MyLogicLib/Task7Logic/Closets/BookCloset.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyLogicLib/Task7Logic/Closets/Closet.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyLogicLib/Task7Logic/Closets/DishCloset.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyLogicLib/Task7Logic/Closets/IFurniture.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyLogicLib/Task7Logic/Closets/ShoeCloset.cs" afterDir="false" />
+    <list default="true" id="62a06e11-9636-4d34-b7fb-c396888d87a7" name="Default Changelist" comment="Task 7 fix.">
+      <change afterPath="$PROJECT_DIR$/MyLogicLib/Task8Logic/Athlete.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyLogicLib/Task8Logic/AthleteState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyLogicLib/Task8Logic/Competition.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyLogicLib/Task8Logic/IMedic.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyLogicLib/Task8Logic/MasterMedic.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyLogicLib/Task8Logic/StudentMedic.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyLogicLib/Task8Logic/Track.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyLogicLib/Task8Logic/Utils/CustomRandom.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task8/App.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task8/Form1.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task8/Form1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task8/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task8/Properties/AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task8/Properties/Resources.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task8/Properties/Resources.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task8/Properties/Settings.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task8/Properties/Settings.settings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task8/Task8.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task8/bin/Debug/MyLogicLib.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task8/bin/Debug/MyLogicLib.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task8/bin/Debug/Task8.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task8/bin/Debug/Task8.exe.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task8/bin/Debug/Task8.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task8/obj/Debug/Task8.Properties.Resources.resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task8/obj/Debug/Task8.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task8/obj/Debug/Task8.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task8/obj/Debug/Task8.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task8/obj/Debug/Task8.csproj.GenerateResource.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task8/obj/Debug/Task8.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task8/obj/Debug/Task8.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task8/obj/Debug/Task8.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Tasks/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tasks/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Tasks/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tasks/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyLogicLib/MyLogicLib.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MyLogicLib/MyLogicLib.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyLogicLib/Task4Logic/Athlete.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyLogicLib/Task4Logic/Athlete.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyLogicLib/Task4Logic/AthleteWithWinRecord.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyLogicLib/Task4Logic/AthleteWithWinRecord.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyLogicLib/Task7Logic/ReflectionLogic/MyReflection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyLogicLib/Task7Logic/ReflectionLogic/MyReflection.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyLogicLib/Task7Logic/Shapes/Circle.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyLogicLib/Task7Logic/Shapes/IShape.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyLogicLib/Task7Logic/Shapes/Rectangle.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyLogicLib/Task7Logic/Shapes/Triangle.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/MyLogicLib/bin/Debug/MyLogicLib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyLogicLib/bin/Debug/MyLogicLib.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyLogicLib/bin/Debug/MyLogicLib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MyLogicLib/bin/Debug/MyLogicLib.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyLogicLib/obj/Debug/MyLogicLib.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyLogicLib/obj/Debug/MyLogicLib.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyLogicLib/obj/Debug/MyLogicLib.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyLogicLib/obj/Debug/MyLogicLib.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyLogicLib/obj/Debug/MyLogicLib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyLogicLib/obj/Debug/MyLogicLib.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyLogicLib/obj/Debug/MyLogicLib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MyLogicLib/obj/Debug/MyLogicLib.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task2/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task2/Form1.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task2/bin/Debug/MyLogicLib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Task2/bin/Debug/MyLogicLib.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task2/bin/Debug/MyLogicLib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Task2/bin/Debug/MyLogicLib.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task2/bin/Debug/Task2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Task2/bin/Debug/Task2.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task2/bin/Debug/Task2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Task2/bin/Debug/Task2.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task2/obj/Debug/Task2.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Task2/obj/Debug/Task2.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task2/obj/Debug/Task2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Task2/obj/Debug/Task2.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task2/obj/Debug/Task2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Task2/obj/Debug/Task2.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task7/Form1.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task7/Form1.Designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task7/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task7/Form1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task7/bin/Debug/MyLogicLib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Task7/bin/Debug/MyLogicLib.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task7/bin/Debug/MyLogicLib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Task7/bin/Debug/MyLogicLib.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task7/bin/Debug/Task7.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Task7/bin/Debug/Task7.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task7/bin/Debug/Task7.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Task7/bin/Debug/Task7.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task3/bin/Debug/MyLogicLib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Task3/bin/Debug/MyLogicLib.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task3/bin/Debug/MyLogicLib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Task3/bin/Debug/MyLogicLib.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task3/obj/Debug/Task3.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Task3/obj/Debug/Task3.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task4/bin/Debug/MyLogicLib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/bin/Debug/MyLogicLib.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task4/bin/Debug/MyLogicLib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/bin/Debug/MyLogicLib.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task4/obj/Debug/Task4.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/obj/Debug/Task4.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task6/Form1.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task6/Form1.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task6/bin/Debug/MyLogicLib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Task6/bin/Debug/MyLogicLib.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task6/bin/Debug/MyLogicLib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Task6/bin/Debug/MyLogicLib.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task6/obj/Debug/Task6.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Task6/obj/Debug/Task6.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task7/obj/Debug/Task7.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Task7/obj/Debug/Task7.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task7/obj/Debug/Task7.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Task7/obj/Debug/Task7.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task7/obj/Debug/Task7.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Task7/obj/Debug/Task7.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/bin/Debug/MyLogicLib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Test/bin/Debug/MyLogicLib.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/bin/Debug/MyLogicLib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Test/bin/Debug/MyLogicLib.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/bin/Debug/Test.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Test/bin/Debug/Test.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/bin/Debug/Test.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Test/bin/Debug/Test.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/obj/Debug/Test.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Test/obj/Debug/Test.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/obj/Debug/Test.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Test/obj/Debug/Test.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/obj/Debug/Test.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Test/obj/Debug/Test.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,40 +108,69 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/MyLogicLib/Task7Logic/Closets/BookCloset.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Vlad/RiderProjects/Tasks/MyLogicLib/Task8Logic/Conveyer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Vlad/RiderProjects/Tasks/Task8/Form1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Task1/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/50FE65A4-93A0-4952-84F1-E3562EFBE38D/aa/d7304b0e/Activator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Vlad/RiderProjects/Tasks/MyLogicLib/Task8Logic/Conveyer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Vlad/RiderProjects/Tasks/MyLogicLib/Task8Logic/Athlete.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Vlad/RiderProjects/Tasks/MyLogicLib/Task8Logic/Competition.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://Competition.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Vlad/RiderProjects/Tasks/MyLogicLib/Task8Logic/Competition.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Vlad/RiderProjects/Tasks/MyLogicLib/Task8Logic/AthleteState.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://ConveyerState.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Vlad/RiderProjects/Tasks/MyLogicLib/Task8Logic/Conveyer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://Athlete.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://Competition.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3B28F550-0D54-4E01-9E30-DCA09FAB36D7/87/a75e7f7f/Form.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://Conveyer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Vlad/RiderProjects/Tasks/MyLogicLib/Task8Logic/Competition.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Vlad/RiderProjects/Tasks/Task8/Form1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Vlad/RiderProjects/Tasks/Task8/Form1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Vlad/RiderProjects/Tasks/MyLogicLib/Task8Logic/Competition.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://Competition.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyLogicLib/Task7Logic/Closets/DishCloset.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Vlad/RiderProjects/Tasks/MyLogicLib/Task8Logic/Competition.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Vlad/RiderProjects/Tasks/MyLogicLib/Task8Logic/AthleteState.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Vlad/RiderProjects/Tasks/MyLogicLib/Task8Logic/Conveyer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Vlad/RiderProjects/Tasks/MyLogicLib/Task8Logic/Athlete.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Vlad/RiderProjects/Tasks/MyLogicLib/Task8Logic/Athlete.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://Competition.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://Conveyer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyLogicLib/Task8Logic/Track.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Vlad/RiderProjects/Tasks/MyLogicLib/Task8Logic/Athlete.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Vlad/RiderProjects/Tasks/Task8/Form1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Vlad/RiderProjects/Tasks/MyLogicLib/Task8Logic/AthleteState.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://ConveyerState.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://Loader.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Tasks/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Vlad/RiderProjects/Tasks/MyLogicLib/Task8Logic/Conveyer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://Conveyer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Vlad/RiderProjects/Tasks/Task8/Form1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Vlad/RiderProjects/Tasks/Task8/Form1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://ConveyerState.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Vlad/RiderProjects/Tasks/MyLogicLib/Task8Logic/Conveyer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://Competition.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Vlad/RiderProjects/Tasks/Task8/Form1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Vlad/RiderProjects/Tasks/MyLogicLib/Task8Logic/Conveyer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Vlad/RiderProjects/Tasks/MyLogicLib/Task8Logic/Conveyer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://Competition.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://Conveyer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://ConveyerState.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyLogicLib/Task7Logic/Closets/IFurniture.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyLogicLib/Task7Logic/Closets/Closet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3E4100C5-0380-40BA-A2BA-66BB8A76E424/85/1ed2e257/Control.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://Conveyer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyLogicLib/Task7Logic/Closets/BookCloset.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://Conveyer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Vlad/RiderProjects/Tasks/MyLogicLib/Task8Logic/Athlete.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://Competition.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Vlad/RiderProjects/Tasks/MyLogicLib/Task8Logic/AthleteState.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Vlad/RiderProjects/Tasks/MyLogicLib/Task8Logic/AthleteState.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/MyLogicLib/Task6Logic/Furniture.cs" />
-        <option value="$PROJECT_DIR$/Task6/Form1.Designer.cs" />
-        <option value="$PROJECT_DIR$/Task6/Program.cs" />
-        <option value="$PROJECT_DIR$/Task6/Form2.Designer.cs" />
-        <option value="$PROJECT_DIR$/Task4/Form1.cs" />
-        <option value="$PROJECT_DIR$/Task3/Form1.cs" />
-        <option value="$PROJECT_DIR$/Task6/Form2.cs" />
-        <option value="$PROJECT_DIR$/Task6/Form1.cs" />
-        <option value="$PROJECT_DIR$/MyLogicLib/Task7Logic/LibForReflection/Round.cs" />
-        <option value="$PROJECT_DIR$/MyLogicLib/Task7Logic/LibForReflection/shape.cs" />
-        <option value="$PROJECT_DIR$/MyLogicLib/Task7Logic/LibForReflection/Shape.cs" />
-        <option value="$PROJECT_DIR$/MyLogicLib/Task7Logic/LibForReflection/IShape.cs" />
-        <option value="$PROJECT_DIR$/MyLogicLib/Task7Logic/LibForReflection/Circle/Circle.cs" />
-        <option value="$PROJECT_DIR$/MyLogicLib/Task7Logic/LibForReflection/Dot.cs" />
-        <option value="$PROJECT_DIR$/MyLogicLib/Task7Logic/LibForReflection/Triangle.cs" />
-        <option value="$PROJECT_DIR$/MyLogicLib/Task7Logic/LibForReflection/Circle.cs" />
-        <option value="$PROJECT_DIR$/MyLogicLib/Task7Logic/LibForReflection/Rectangle.cs" />
-        <option value="$PROJECT_DIR$/MyLogicLib/Task7Logic/Shapes/Circle.cs" />
-        <option value="$PROJECT_DIR$/MyLogicLib/Task7Logic/Shapes/IShape.cs" />
-        <option value="$PROJECT_DIR$/MyLogicLib/Task7Logic/ReflectionLogic/Reflection.cs" />
-        <option value="$PROJECT_DIR$/MyLogicLib/Task7Logic/Test.cs" />
-        <option value="$PROJECT_DIR$/MyLogicLib/Task7Logic/Shapes/Triangle.cs" />
         <option value="$PROJECT_DIR$/MyLogicLib/Task7Logic/Shapes/Rectangle.cs" />
         <option value="$PROJECT_DIR$/Task7/Form1.Designer.cs" />
         <option value="$PROJECT_DIR$/Task2/Form1.Designer.cs" />
@@ -126,7 +179,6 @@
         <option value="$PROJECT_DIR$/MyLogicLib/Task3Logic/Circle.cs" />
         <option value="$PROJECT_DIR$/MyLogicLib/Task3Logic/Round.cs" />
         <option value="$PROJECT_DIR$/MyLogicLib/Task4Logic/AthleteWithWinRecord.cs" />
-        <option value="$PROJECT_DIR$/MyLogicLib/Task4Logic/Athlete.cs" />
         <option value="$PROJECT_DIR$/Task2/Form1.cs" />
         <option value="$PROJECT_DIR$/MyLogicLib/Task7Logic/Athletes/AthleteWithWinRecord.cs" />
         <option value="$PROJECT_DIR$/MyLogicLib/Task7Logic/Athletes/Athlete.cs" />
@@ -147,6 +199,29 @@
         <option value="$PROJECT_DIR$/MyLogicLib/Task7Logic/Closets/ShoesCloset.cs" />
         <option value="$PROJECT_DIR$/MyLogicLib/Task7Logic/ReflectionLogic/MyReflection.cs" />
         <option value="$PROJECT_DIR$/Task7/Form1.cs" />
+        <option value="$PROJECT_DIR$/MyLogicLib/Task8Logic/ConveyerState.cs" />
+        <option value="$PROJECT_DIR$/MyLogicLib/Task8Logic/Loader.cs" />
+        <option value="$PROJECT_DIR$/MyLogicLib/Task8Logic/Conveyer.cs" />
+        <option value="$PROJECT_DIR$/MyLogicLib/Task8Logic/Technician.cs" />
+        <option value="$PROJECT_DIR$/MyLogicLib/Task8Logic/OrdinaryTechnician.cs" />
+        <option value="$PROJECT_DIR$/MyLogicLib/Task8Logic/Factory.cs" />
+        <option value="$PROJECT_DIR$/MyLogicLib/Task8Logic/Stadium.cs" />
+        <option value="$PROJECT_DIR$/MyLogicLib/Task8Logic/Paramedic.cs" />
+        <option value="$PROJECT_DIR$/MyLogicLib/Task8Logic/IMedic.cs" />
+        <option value="$PROJECT_DIR$/Task6/Form1.Designer.cs" />
+        <option value="$PROJECT_DIR$/MyLogicLib/Task4Logic/Athlete.cs" />
+        <option value="$PROJECT_DIR$/MyLogicLib/Task8Logic/Track.cs" />
+        <option value="$PROJECT_DIR$/Task4/Form1.cs" />
+        <option value="$PROJECT_DIR$/MyLogicLib/Task8Logic/MasterMedic.cs" />
+        <option value="$PROJECT_DIR$/Task8/Form1.Designer.cs" />
+        <option value="$PROJECT_DIR$/MyLogicLib/Task8Logic/AthleteState.cs" />
+        <option value="$PROJECT_DIR$/MyLogicLib/Task8Logic/StudentMedic.cs" />
+        <option value="$PROJECT_DIR$/MyLogicLib/Task8Logic/Utils/Randomizer.cs" />
+        <option value="$PROJECT_DIR$/MyLogicLib/Task8Logic/Utils/CustomRundom.cs" />
+        <option value="$PROJECT_DIR$/MyLogicLib/Task8Logic/Utils/CustomRandom.cs" />
+        <option value="$PROJECT_DIR$/MyLogicLib/Task8Logic/Athlete.cs" />
+        <option value="$PROJECT_DIR$/MyLogicLib/Task8Logic/Competition.cs" />
+        <option value="$PROJECT_DIR$/Task8/Form1.cs" />
       </list>
     </option>
   </component>
@@ -167,7 +242,7 @@
     <property name="settings.editor.selected.configurable" value="SolutionBuilderGeneralOptionsPageId" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Project.Task7">
+  <component name="RunManager" selected=".NET Project.Task8">
     <configuration name="Task1" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="$PROJECT_DIR$/Task1/bin/Debug/netcoreapp3.1/Task1.dll" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -276,6 +351,24 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="Task8" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Task8/Task8.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="Test" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -302,6 +395,7 @@
       <item itemvalue=".NET Project.Task6" />
       <item itemvalue=".NET Project.Task7" />
       <item itemvalue=".NET Project.Test" />
+      <item itemvalue=".NET Project.Task8" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -337,7 +431,11 @@
       <workItem from="1603047529672" duration="634000" />
       <workItem from="1603052266695" duration="1271000" />
       <workItem from="1603090192203" duration="1070000" />
-      <workItem from="1604303191807" duration="6407000" />
+      <workItem from="1604303191807" duration="6759000" />
+      <workItem from="1604853213641" duration="675000" />
+      <workItem from="1605876179452" duration="2430000" />
+      <workItem from="1607632165581" duration="816000" />
+      <workItem from="1608802358393" duration="28364000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit.">
       <created>1602432826315</created>
@@ -360,7 +458,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602926138346</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Task 7 fix.">
+      <created>1604310996988</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604310996988</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,7 +491,8 @@
     <MESSAGE value="Init commit." />
     <MESSAGE value="6 task added.&#10;7 task added (not ready)." />
     <MESSAGE value="7 task almost ready (need to change base form 3 task to 6 task + add some more library and package search).&#10;4 task fix.&#10;2 task fix." />
-    <option name="LAST_COMMIT_MESSAGE" value="7 task almost ready (need to change base form 3 task to 6 task + add some more library and package search).&#10;4 task fix.&#10;2 task fix." />
+    <MESSAGE value="Task 7 fix." />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 7 fix." />
   </component>
   <component name="WindowStateProjectService">
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602772401873">
@@ -397,22 +503,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="342" y="241" key="Git.Rebase.Log.Action.NewCommitMessage.Dialog/0.0.1280.680@0.0.1280.680" timestamp="1602926309734" />
-    <state width="1237" height="127" key="GridCell.Tab.0.bottom" timestamp="1604310864016">
+    <state width="1237" height="2" key="GridCell.Tab.0.bottom" timestamp="1608856721832">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="127" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1604310864016" />
-    <state width="1237" height="127" key="GridCell.Tab.0.center" timestamp="1604310864016">
+    <state width="1237" height="2" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1608856721832" />
+    <state width="1237" height="2" key="GridCell.Tab.0.center" timestamp="1608856721832">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="127" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1604310864016" />
-    <state width="1237" height="127" key="GridCell.Tab.0.left" timestamp="1604310864016">
+    <state width="1237" height="2" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1608856721832" />
+    <state width="1237" height="2" key="GridCell.Tab.0.left" timestamp="1608856721832">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="127" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1604310864016" />
-    <state width="1237" height="127" key="GridCell.Tab.0.right" timestamp="1604310864016">
+    <state width="1237" height="2" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1608856721832" />
+    <state width="1237" height="2" key="GridCell.Tab.0.right" timestamp="1608856721832">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="127" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1604310864016" />
+    <state width="1237" height="2" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1608856721832" />
     <state width="1237" height="29" key="GridCell.Tab.1.bottom" timestamp="1602846604673">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -477,10 +583,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="29" key="GridCell.Tab.4.right/0.0.1280.680@0.0.1280.680" timestamp="1602846604673" />
-    <state x="233" y="73" key="Rider.ProjectTemplateDialog.Size" timestamp="1602772492423">
+    <state x="233" y="73" key="Rider.ProjectTemplateDialog.Size" timestamp="1608802510505">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Rider.ProjectTemplateDialog.Size/0.0.1280.680@0.0.1280.680" timestamp="1602772492423" />
+    <state x="233" y="73" key="Rider.ProjectTemplateDialog.Size/0.0.1280.680@0.0.1280.680" timestamp="1608802510505" />
     <state x="592" y="23" key="RiderGenerateDialog" timestamp="1602924988342">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -497,22 +603,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="93" y="93" width="1095" height="495" key="VCS.FileHistoryDialog/0.0.1280.680@0.0.1280.680" timestamp="1604310557595" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1602926932140">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1604311005695">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1602926932140" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1604311005695" />
     <state x="113" y="106" width="1095" height="495" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1602763839247">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="113" y="106" width="1095" height="495" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1280.680@0.0.1280.680" timestamp="1602763839247" />
-    <state x="93" y="93" width="1095" height="495" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1602848408944">
+    <state x="93" y="93" width="1095" height="495" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1608849045234">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="93" y="93" width="1095" height="495" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.680@0.0.1280.680" timestamp="1602848408944" />
-    <state x="297" y="151" key="run.anything.popup" timestamp="1602699741714">
+    <state x="93" y="93" width="1095" height="495" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.680@0.0.1280.680" timestamp="1608849045234" />
+    <state x="297" y="151" key="run.anything.popup" timestamp="1608856252028">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1602699741714" />
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1608856252028" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1602751051157">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
